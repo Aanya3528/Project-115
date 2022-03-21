@@ -1,0 +1,32 @@
+
+body{
+
+    font-family: 'Sacramento', cursive;
+
+}
+
+h3{
+
+font-size:25px !important;
+
+}
+
+.btn-info:hover{
+
+background-color: rgb(125, 197, 125);
+
+}
+
+canvas{
+
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+
+from{box-shadow: 12px 12px 90px rgb(77, 183, 245);}
+to{box-shadow: 12px 12px 90px rgb(255, 115, 213);}
+}
